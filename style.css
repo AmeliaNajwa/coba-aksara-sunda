@@ -538,6 +538,19 @@ body {
   background-repeat: no-repeat;
 }
 
+/* =====================
+   COVER MOBILE BACKGROUND (HP)
+===================== */
+@media (max-width: 768px) {
+  #cover {
+    min-height: 100svh; /* full tinggi layar mobile */
+    background-image: url("img/bg_hp1.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 100%;
+  }
+}
+
 #cover::before,
 #cards::before {
   content: none;
@@ -1090,6 +1103,22 @@ body.quiz-lock {
   color: #6b3f1d;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+/* =====================
+   QUIZ & SUSUN KATA MOBILE BACKGROUND
+===================== */
+@media (max-width: 768px) {
+
+  #quiz,
+  #susunKata {
+    min-height: 100svh;
+    background-image: url("img/bg_hp2.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% 100%;
+  }
+
 }
 
 /* ===============================
